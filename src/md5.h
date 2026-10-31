@@ -11,9 +11,9 @@
 #include <string>
 #include <string_view>
 
-namespace rexgamejolt {
+namespace rexjolt {
 
 // Returns the 32-character lowercase hex digest of `data`.
 std::string Md5(std::string_view data);
 
-}  // namespace rexgamejolt
+}  // namespace rexjolt

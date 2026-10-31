@@ -1,4 +1,4 @@
-#include <rexgamejolt/gamejolt.h>
+#include <rexjolt/rexjolt.h>
 
 #include <rex/cvar.h>
 #include <rex/filesystem.h>
@@ -62,7 +62,7 @@ REXCVAR_DEFINE_BOOL(gamejolt_log_requests, false, "Thirdparty", "Log every Game 
 #define REX_GAMEJOLT_HAVE_HTTP 0
 #endif
 
-namespace rexgamejolt {
+namespace rexjolt {
 
 namespace {
 
@@ -1102,7 +1102,7 @@ void SetSessionActive(bool active) {
   g_session_active = active;
 }
 
-}  // namespace rexgamejolt
+}  // namespace rexjolt
 
 // Game Jolt's settings only while it is on.
 namespace {

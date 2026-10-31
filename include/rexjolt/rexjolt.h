@@ -4,7 +4,7 @@
 #include <filesystem>
 #include <string>
 
-namespace rexgamejolt {
+namespace rexjolt {
 
 enum class SignInState {
   kSignedOut,

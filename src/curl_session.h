@@ -22,7 +22,7 @@
 
 #include <curl/curl.h>
 
-namespace rexgamejolt {
+namespace rexjolt {
 
 namespace detail {
 // curl_easy_init() will initialise the library implicitly, but that path is
@@ -136,7 +136,7 @@ class CurlSession {
   CURL* handle_ = nullptr;
 };
 
-}  // namespace rexgamejolt
+}  // namespace rexjolt
 
 #endif  // !REX_PLATFORM_WIN32 && REX_HAVE_CURL
 

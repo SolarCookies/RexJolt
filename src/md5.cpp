@@ -10,7 +10,7 @@
 #include <cstdint>
 #include <cstring>
 
-namespace rexgamejolt {
+namespace rexjolt {
 
 namespace {
 
@@ -115,4 +115,4 @@ std::string Md5(std::string_view data) {
   return out;
 }
 
-}  // namespace rexgamejolt
+}  // namespace rexjolt
